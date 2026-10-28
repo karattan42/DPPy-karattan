@@ -13,5 +13,5 @@ try:
     else:
         print("The result is negative.")
 
-except ValueError:
+except :
     print("cmon bro put a valid number")

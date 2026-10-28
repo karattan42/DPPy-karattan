@@ -12,5 +12,5 @@ try:
     else:
         print("This number is negative.")
 
-except:
+except ValueError:
     print("Please enter a valid integer.")
